@@ -8,7 +8,7 @@ const UberUns = () => {
   return (
     <Layout>
       <UberUnsBanner />
-      <OurPurpose />
+      <MissionSection />
       <ContactUs />
     </Layout>
   );

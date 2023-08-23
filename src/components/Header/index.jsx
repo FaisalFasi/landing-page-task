@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
@@ -36,10 +35,10 @@ const Header = () => {
 
   return (
     <div
-      className={`sticky h-20 top-0 z-50 flex items-center py-4 px-4 justify-between bg-[rgba(255,255,255,0.92)]`}
+      className={`sticky h-20 top-0 z-50 flex items-center py-4 px-4 justify-between bg-[#f8f9fa]`}
     >
       <ul
-        className={`w-full z-2 lg:flex gap-2  text-center lg:items-center p-8 lg:p-0 absolute lg:static  bg-[rgba(255,255,255,0.92)] lg:bg-none lg:z-auto left-0  transition-all duration-500 ease-out ${
+        className={`w-full z-2 lg:flex gap-2  text-center lg:items-center p-8 lg:p-0 absolute lg:static  lg:bg-none lg:z-auto left-0  transition-all duration-500 ease-out ${
           isNavbarOpen ? "h-screen  top-0 pt-12 md:mt-8" : "top-[-490px]"
         } `}
       >
