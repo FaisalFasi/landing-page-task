@@ -2,8 +2,8 @@ import React from "react";
 
 const Partners = () => {
   return (
-    <div className=" py-8 mx-auto">
-      <div className="flex flex-col justify-center  items-start ">
+    <div className="py-8">
+      <div className="flex flex-col items-start ">
         <h1 className="  pb-4 text-black font-helvetica-neue font-medium text-2xl md:text-4xl leading-[150%]">
           Gefördert durch
         </h1>

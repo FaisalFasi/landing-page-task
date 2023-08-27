@@ -14,11 +14,11 @@ const InfoCard = () => {
           <img
             src="/images/groupImages/oldMan.png"
             alt="image of an old man in groupe section "
-            className="w-full rounded-[9px] bg-[url(<path-to-image>)] bg-lightgray bg-center bg-cover bg-no-repeat"
+            className="w-full rounded-[9px] bg-lightgray"
           />
         </div>
 
-        <div className="flex flex-col  justify-center items-start  gap-[20px]  ">
+        <div className="flex flex-col justify-center items-start  gap-[20px]  ">
           <h4 className="text-[#212529] font-helvetica-neue font-medium text-xl leading-[120%]">
             Finde deine Gruppe
           </h4>

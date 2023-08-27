@@ -35,11 +35,11 @@ const Header = () => {
 
   return (
     <div
-      className={`sticky h-20 top-0 z-50 flex items-center py-4 px-4 justify-between bg-[#f8f9fa]`}
+      className={`sticky h-20 top-0 z-50 flex items-center py-4 px-4 justify-between  bg-[#f8f9fa]`}
     >
       <ul
-        className={`w-full z-2 lg:flex gap-2  text-center lg:items-center p-8 lg:p-0 absolute lg:static  lg:bg-none lg:z-auto left-0  transition-all duration-500 ease-out ${
-          isNavbarOpen ? "h-screen  top-0 pt-12 md:mt-8" : "top-[-490px]"
+        className={`w-full z-2 lg:flex gap-2  text-center lg:items-center p-8 lg:p-0 absolute lg:static  lg:bg-none lg:z-auto left-0  transition-all duration-500 ease-out  bg-[#f8f9fa] ${
+          isNavbarOpen ? "h-screen top-0 pt-12 " : "top-[-490px]"
         } `}
       >
         {navItems.map(({ to, title, _scrollTo }, index) => {
@@ -48,7 +48,7 @@ const Header = () => {
               <Link
                 to={to}
                 onClick={() => handleNavLinkClick(_scrollTo)}
-                className={`relative before:w-0 before:absolute before:bottom-0 before:border-b-2 before:border-black hover:before:w-full before:transition-all before:duration-300`}
+                className={``}
               >
                 {title}
               </Link>
@@ -64,7 +64,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <div className="md:flex items-center md:justify-between justify-items-start	 w-full">
+      <div className="md:flex items-center md:justify-between justify-items-start	 w-full  bg-[#f8f9fa]">
         <img
           src="/images/logo/Logo.png"
           alt="navbar logo"
@@ -86,7 +86,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={` w-20 h-30 p-2 cursor-pointer rounded active:outline outline-2 outline-blue-400  hover:bg-gray-100 md:hidden block z-10`}
+        className={` w-20 h-30 p-2 cursor-pointer rounded active:outline outline-2 outline-blue-400  hover:bg-gray-100 lg:hidden block z-10`}
         onClick={() => setIsNavbarOpen(!isNavbarOpen)}
       >
         {!isNavbarOpen ? <Bars3BottomRightIcon /> : <XMarkIcon />}

@@ -30,7 +30,7 @@ const PriceInformation = () => {
           </div>
           <p className="mt-2 text-[#212529] text-center font-HelveticaNeue text-sm font-normal leading-[150%]">
             We.together ist kostenlos für Gruppenmoderatoren{" "}
-            <span className="text-[var(--color-brand-primary,#A64D79)]">
+            <span className="text-[#A64D79]">
               - <span className="underline">Jetzt mehr erfahren.</span>
             </span>
           </p>

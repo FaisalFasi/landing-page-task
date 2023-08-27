@@ -22,7 +22,7 @@ const cardData = [
 const GroupCards = () => {
   return (
     <div className="text-start mt-20">
-      <h3 className="text-[var(--text-text-primary,#212529)] font-HelveticaNeue text-3xl font-medium leading-[120%] self-stretch">
+      <h3 className="text-[#212529] font-HelveticaNeue text-3xl font-medium leading-[120%] self-stretch">
         Finde Die richtige Gruppe für Dich
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[32px] mt-8  ">
@@ -37,7 +37,7 @@ const GroupCards = () => {
                 alt="group card"
                 className="w-full md:max-w-full h-auto"
               />
-              <div className="flex  items-center gap-8 pl-2">
+              <div className="flex items-center gap-8 pl-2">
                 <p className="text-[#1E1E1E] font-open-sans text-base font-normal leading-[150%] tracking-tighter">
                   {groupName}
                 </p>
